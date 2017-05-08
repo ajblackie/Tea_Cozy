@@ -1,7 +1,135 @@
 body {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
+  align-items: center;
   background-color: black;
-  opacity: 0.9;  
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  justify-content: center;
+  margin: 0;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+header a {
+  color: seashell;
+}
+header span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mission {
+  align-items: center;
+  background-image: url(../Images/img-mission-background.jpg);
+  display: flex;
+  height: 700px;
+  padding-top: 69px;
+  width: 1200px;
+}
+.mission-info {
+  background-color: black;
+  width: 100%;
+}
+.mission-info h2, h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+#featured {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  width: 1000px;
+}
+.totm h2, h4 {
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0;
+}
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 1000px;
+
+}
+.flavor {
+  background-color: black;
+  display: block;
+  font-weight: bold;
+  height: 250px;
+  margin: 0;
+  padding: 0 15px;
+  width: 300px;
+}
+.flavor img {
+  padding-bottom: 10px;
+  height: 200px;
+  width: 300px;
+}
+#locations {
+  background-image: url(../Images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+  width: 1200px;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  margin: 15px 20px;
+  opacity: 1.0;
+  width: 300px;
+}
+.address p {
+  display: block;
+}
+#locations h2 {
+  margin: 0;
+}
+#info {
+  height: 200px;
+  width: 100%;
+}
+#info h2 {
+  margin-top: 10px;
+}
+#copy {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  width: 100%;
+}
+#copy h5 {
+  display: block;
 }
